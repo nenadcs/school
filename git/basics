@@ -5,10 +5,22 @@ each file can either be 'tracked' or 'untracked'
 - untracked are files not in the last commit and are not staged
 
 
-``git add {file}``
+``git add <file>``
 add file or directory to be tracked, it is staged
 any change since last commit needs to be staged again before next commit
 
 
 ``git diff``
 it tells you in detail the changes made that are not yet staged
+
+
+``git rm <file>``
+removes the file from staging and from directory. if you simply use ``rm``
+you will still need to ``git rm`` before commit
+if you modified or staged the file you must ``-f`` force the removal
+to unstage and keep the file in the folder ``git rm --cached <file>``
+
+
+``git mv <file> <file>``
+rename a file and keep it tracked
+
