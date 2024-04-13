@@ -1,0 +1,14 @@
+``git status``
+each file can either be 'tracked' or 'untracked'
+
+- tracked are files in the last commit or newly staged ones
+- untracked are files not in the last commit and are not staged
+
+
+``git add {file}``
+add file or directory to be tracked, it is staged
+any change since last commit needs to be staged again before next commit
+
+
+``git diff``
+it tells you in detail the changes made that are not yet staged
