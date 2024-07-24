@@ -1,3 +1,3 @@
-# cysec studying
+# studying
 
 here's hoping
